@@ -1,0 +1,80 @@
+## Ignore Visual Studio temporary files, build results, and user-specific files
+.vs/
+bin/
+obj/
+*.suo
+*.user
+*.sln.docstates
+
+## Ignore user-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+## Ignore build results
+Debug/
+Release/
+x64/
+x86/
+bld/
+
+## Ignore Visual Studio cache/options directory
+.vs/
+
+## Ignore NuGet packages (handled by Package Restore)
+**/packages/
+!**/packages/repositories.config
+
+## Ignore test results
+TestResults/
+
+## Ignore local development settings
+appsettings.Development.json
+appsettings.*.json
+!.gitignore
+!.gitattributes
+!Company.Project.PL/appsettings.json
+
+## Ignore Visual Studio code coverage results
+*.coverage
+*.coveragexml
+
+## Ignore temporary files
+*.[Pp]ublish.xml
+*.publishproj
+
+## Ignore database files (if any)
+*.mdf
+*.ldf
+
+## Ignore Git-specific files (already handled by Git)
+.gitignore
+.gitattributes
+
+## Ignore JetBrains Rider files (if used)
+*.sln.iml
+
+## Ignore local history and temp files
+.history/
+*.tmp
+*.bak
+
+## Ignore VS Code specific files (if used)
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+## Ignore specific project-generated files
+Company.Project/Company.Project.Application/bin/
+Company.Project/Company.Project.Application/obj/
+Company.Project/Company.Project.Domain/bin/
+Company.Project/Company.Project.Domain/obj/
+Company.Project/Company.Project.DTO/bin/
+Company.Project/Company.Project.DTO/obj/
+Company.Project/Company.Project.Infrastructure/bin/
+Company.Project/Company.Project.Infrastructure/obj/
+Company.Project/Company.Project.PL/bin/
+Company.Project/Company.Project.PL/obj/
+Company.Project/Company.Project.theDbContext/bin/
+Company.Project/Company.Project.theDbContext/obj/
+Company.Project/Company.Project.theDbContext/Migrations/*.Designer.cs

@@ -8,7 +8,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1509e8e0-9304-4700-8adf-2ed6c59dcb06" name="Changes" comment="" />
+    <list default="true" id="1509e8e0-9304-4700-8adf-2ed6c59dcb06" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Company.Project/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Company.Project/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Company.Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Company.Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Company.Project.Application/obj/Debug/net8.0/Company.Project.Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Company.Project.Application/obj/Debug/net8.0/Company.Project.Application.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Company.Project.Application/obj/Debug/net8.0/Company.Project.Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Company.Project.Application/obj/Debug/net8.0/Company.Project.Application.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Company.Project.DTO/obj/Debug/net8.0/Company.Project.DTO.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Company.Project.DTO/obj/Debug/net8.0/Company.Project.DTO.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Company.Project.DTO/obj/Debug/net8.0/Company.Project.DTO.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Company.Project.DTO/obj/Debug/net8.0/Company.Project.DTO.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Company.Project.Domain/obj/Debug/net8.0/Company.Project.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Company.Project.Domain/obj/Debug/net8.0/Company.Project.Domain.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Company.Project.Domain/obj/Debug/net8.0/Company.Project.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Company.Project.Domain/obj/Debug/net8.0/Company.Project.Domain.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Company.Project.Infrastructure/obj/Debug/net8.0/Company.Project.Infrastructure.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Company.Project.Infrastructure/obj/Debug/net8.0/Company.Project.Infrastructure.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Company.Project.Infrastructure/obj/Debug/net8.0/Company.Project.Infrastructure.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Company.Project.Infrastructure/obj/Debug/net8.0/Company.Project.Infrastructure.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Company.Project.PL/obj/Debug/net8.0/Company.Project.PL.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Company.Project.PL/obj/Debug/net8.0/Company.Project.PL.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Company.Project.PL/obj/Debug/net8.0/Company.Project.PL.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Company.Project.PL/obj/Debug/net8.0/Company.Project.PL.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Company.Project.theDbcontext/obj/Debug/net8.0/Company.Project.theDbcontext.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Company.Project.theDbcontext/obj/Debug/net8.0/Company.Project.theDbcontext.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Company.Project.theDbcontext/obj/Debug/net8.0/Company.Project.theDbcontext.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Company.Project.theDbcontext/obj/Debug/net8.0/Company.Project.theDbcontext.AssemblyInfoInputs.cache" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +50,7 @@
     ".NET Launch Settings Profile.Company.Project.PL: http.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -97,7 +114,8 @@
       <workItem from="1752776079302" duration="3236000" />
       <workItem from="1752779768266" duration="104000" />
       <workItem from="1752779893317" duration="918000" />
-      <workItem from="1752780824304" duration="695000" />
+      <workItem from="1752780824304" duration="2256000" />
+      <workItem from="1752783447806" duration="420000" />
     </task>
     <servers />
   </component>
