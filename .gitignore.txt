@@ -1,187 +1,78 @@
-# Visual Studio files
+## Ignore IntelliJ IDEA files
+.idea/
+*.iml
+
+## Ignore Visual Studio temporary files, build results, and user-specific files
 .vs/
+bin/
+obj/
 *.suo
 *.user
+*.sln.docstates
+
+## Ignore user-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
-*.log
-*.tlog
-*.trx
-*.bak
-*.pdb
-*.opendata
-*.VC.db
-*.sdf
-*.cache
-*.ncb
-*.scc
-*.vspscc
-*.vssscc
-*.vshost.*
-*.testsettings
-*.orderedtest
+
+## Ignore build results
+Debug/
+Release/
+x64/
+x86/
+bld/
+
+## Ignore NuGet packages (handled by Package Restore)
+**/packages/
+!**/packages/repositories.config
+
+## Ignore test results
+TestResults/
+
+## Ignore local development settings
+appsettings.Development.json
+appsettings.*.json
+!.gitignore
+!.gitattributes
+!Company.Project.PL/appsettings.json
+
+## Ignore Visual Studio code coverage results
 *.coverage
 *.coveragexml
-*.dbmdl
-*.jfm
-*.pfx
-*.publishsettings
-*.webpublish
-*.pubxml
-*.csproj.user
-*.xproj.user
-*.sln.docstates
-*.vsp
-*.vspx
-*.psess
-*.vsi
-*.vsix
-*.webtest
-*.testrunconfig
-*.ruleset
-*.rdl.data
-*.rdlc.data
-*.sqlproj.user
-*.dbproj.user
-*.deployment
-*.deploypub
-*.publish
-*.publish.xml
+
+## Ignore temporary files
+*.[Pp]ublish.xml
 *.publishproj
-*.publishprofile
-*.vsct
-*.vsixmanifest
-*.vst
-*.vstemplate
-*.webtest
-*.testrunconfig
-*.ruleset
-*.rdl.data
-*.rdlc.data
-*.sqlproj.user
-*.dbproj.user
-*.deployment
-*.deploypub
-*.publish
-*.publish.xml
-*.publishproj
-*.publishprofile
-*.vsct
-*.vsixmanifest
-*.vst
-*.vstemplate
-*.webtest
-*.testrunconfig
-*.ruleset
-*.rdl.data
-*.rdlc.data
-*.sqlproj.user
-*.dbproj.user
-*.deployment
-*.deploypub
-*.publish
-*.publish.xml
-*.publishproj
-*.publishprofile
-*.vsct
-*.vsixmanifest
-*.vst
-*.vstemplate
 
-# Build artifacts
-[Bb]in/
-[Oo]bj/
-[Dd]ebug/
-[Rr]elease/
-[Aa]rm64/
-[Xx]64/
-[Xx]86/
-[Aa]ny[Cc]pu/
-*.dll
-*.exe
-*.ilk
-*.idb
-*.lib
-*.obj
-*.exp
-*.map
-*.res
-*.pch
-*.ipch
-*.aps
-*.bsc
-*.ncb
-*.opt
-*.o
-*.lo
-*.la
-*.so
-*.a
-*.lib
-*.mod
-*.sym
-*.class
-*.jar
-*.war
-*.ear
-*.zip
-*.tar
-*.gz
-*.rar
-*.7z
-*.sbr
-*.res
-*.pch
-*.ipch
-*.aps
-*.bsc
-*.ncb
-*.opt
-*.o
-*.lo
-*.la
-*.so
-*.a
-*.lib
-*.mod
-*.sym
-*.class
-*.jar
-*.war
-*.ear
-*.zip
-*.tar
-*.gz
-*.rar
-*.7z
-*.sbr
+## Ignore database files (if any)
+*.mdf
+*.ldf
 
-# Rider / IntelliJ IDEA files
-.idea/
+## Ignore Git-specific files (already handled by Git)
+.gitignore
+.gitattributes
 
-# NuGet packages
-packages/
-*.nupkg
-*.snupkg
-*.vsproj.nuget.props
-*.vsproj.nuget.targets
-
-# Node.js modules (if you have a frontend project in the same repo)
-node_modules/
-
-# DotNet tools
-.config/dotnet-tools.json
-
-# Test results
-TestResults/
-*.trx
-*.coverage
-
-# User-specific files
-*.user
-
-# Log files
-*.log
-
-# Temp files
+## Ignore local history and temp files
+.history/
 *.tmp
-*.~
+*.bak
+
+## Ignore VS Code specific files (if used)
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+## Ignore specific project-generated files
+Company.Project.Application/bin/
+Company.Project.Application/obj/
+Company.Project.Domain/bin/
+Company.Project.Domain/obj/
+Company.Project.DTO/bin/
+Company.Project.DTO/obj/
+Company.Project.Infrastructure/bin/
+Company.Project.Infrastructure/obj/
+Company.Project.PL/bin/
+Company.Project.PL/obj/
+Company.Project.theDbContext/bin/
+Company.Project.theDbContext/obj/
+Company.Project.theDbContext/Migrations/*.Designer.cs
