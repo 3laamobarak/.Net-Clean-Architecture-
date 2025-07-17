@@ -34,7 +34,6 @@
     ".NET Launch Settings Profile.Company.Project.PL: http.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -98,6 +97,7 @@
       <workItem from="1752776079302" duration="3236000" />
       <workItem from="1752779768266" duration="104000" />
       <workItem from="1752779893317" duration="918000" />
+      <workItem from="1752780824304" duration="695000" />
     </task>
     <servers />
   </component>
