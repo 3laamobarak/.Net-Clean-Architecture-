@@ -1,187 +1,80 @@
-implement the following rules for the .gitignore file: for that solution 
-// 1. Ignore all files with the .log extension
-*.log
-// 2. Ignore all files in the temp directory
-temp/
-// 3. Ignore all files in the build directory
-build/
-// 4. Ignore all files in the node_modules directory
-node_modules/
-// 5. Ignore all files in the dist directory
-dist/
-// 6. Ignore all files in the coverage directory
-coverage/
-// 7. Ignore all files in the .vscode directory
-.vscode/
-// 8. Ignore all files with the .tmp extension
-*.tmp
-// 9. Ignore all files with the .bak extension
-*.bak
-// 10. Ignore all files with the .swp extension
-*.swp
-// 11. Ignore all files with the .DS_Store extension
-.DS_Store
-// 12. Ignore all files with the .idea directory
-.idea/
-// 13. Ignore all files with the .env file
-.env
-// 14. Ignore all files with the .cache directory
-.cache/
-// can u be faster?
-// 15. Ignore all files with the .history directory
-.history/
-// 16. Ignore all files with the .tmp directory
-.tmp/
-// 17. Ignore all files with the .sass-cache directory
-.sass-cache/
-// 18. Ignore all files with the .nuxt directory
-.nuxt/
-// 19. Ignore all files with the .next directory
-.next/
-// 20. Ignore all files with the .storybook directory
-.storybook/
-// 21. Ignore all files with the .eslintcache file
-.eslintcache
-// 22. Ignore all files with the .prettiercache file
-.prettiercache
-// 23. Ignore all files with the .cache-loader directory
-.cache-loader/
-// 24. Ignore all files with the .cache-babel directory
-
-.cache-babel/
-// 25. Ignore all files with the .cache-webpack directory
-.cache-webpack/
-// 26. Ignore all files with the .cache-rollup directory
-.cache-rollup/
-// 27. Ignore all files with the .cache-vite directory
-.cache-vite/
-// 28. Ignore all files with the .cache-swc directory
-.cache-swc/
-// 29. Ignore all files with the .cache-turbo directory
-.cache-turbo/
-// 30. Ignore all files with the .cache-esbuild directory
-.cache-esbuild/
-// 31. Ignore all files with the .cache-closure directory
-.cache-closure/
-    
-// 32. Ignore all files with the .cache-uglify directory
-.cache-uglify/
-// 33. Ignore all files with the .cache-babel-loader directory
-.cache-babel-loader/
-
-# Ignore all files with the .log extension
-*.log
-
-# Ignore all files in the temp directory
-temp/
-
-# Ignore all files in the build directory
-build/
-
-# Ignore all files in the node_modules directory
-node_modules/
-
-# Ignore all files in the dist directory
-dist/
-
-# Ignore all files in the coverage directory
-coverage/
-
-# Ignore all files in the .vscode directory
-.vscode/
-
-# Ignore all files with the .tmp extension
-*.tmp
-
-# Ignore all files with the .bak extension
-*.bak
-
-# Ignore all files with the .swp extension
-*.swp
-
-# Ignore all files with the .DS_Store extension
-.DS_Store
-
-# Ignore all files in the .idea directory
-.idea/
-
-# Ignore all files with the .env file
-.env
-
-# Ignore all files in the .cache directory
-.cache/
-
-# Ignore all files in the .history directory
-.history/
-
-# Ignore all files in the .tmp directory
-.tmp/
-
-# Ignore all files in the .sass-cache directory
-.sass-cache/
-
-# Ignore all files in the .nuxt directory
-.nuxt/
-
-# Ignore all files in the .next directory
-.next/
-
-# Ignore all files in the .storybook directory
-.storybook/
-
-# Ignore all files with the .eslintcache file
-.eslintcache
-
-# Ignore all files with the .prettiercache file
-.prettiercache
-
-# Ignore all files in the .cache-loader directory
-.cache-loader/
-
-# Ignore all files in the .cache-babel directory
-.cache-babel/
-
-# Ignore all files in the .cache-webpack directory
-.cache-webpack/
-
-# Ignore all files in the .cache-rollup directory
-.cache-rollup/
-
-# Ignore all files in the .cache-vite directory
-.cache-vite/
-
-# Ignore all files in the .cache-swc directory
-.cache-swc/
-
-# Ignore all files in the .cache-turbo directory
-.cache-turbo/
-
-# Ignore all files in the .cache-esbuild directory
-.cache-esbuild/
-
-# Ignore all files in the .cache-closure directory
-.cache-closure/
-
-# Ignore all files in the .cache-uglify directory
-.cache-uglify/
-
-# Ignore all files in the .cache-babel-loader directory
-.cache-babel-loader/# Ignore build artifacts
+## Ignore Visual Studio temporary files, build results, and user-specific files
+.vs/
 bin/
 obj/
-
-# Ignore user-specific files
-*.user
 *.suo
-*.userosscache
-*.sln.docstates# Ignore build artifacts
-bin/
-obj/
-
-# Ignore user-specific files
 *.user
-*.suo
-*.userosscache
 *.sln.docstates
 
-C:\Users\DELL\Desktop\ITI\.Net\API\ITI Final Project\Company.Project\.idea
+## Ignore user-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+## Ignore build results
+Debug/
+Release/
+x64/
+x86/
+bld/
+
+## Ignore Visual Studio cache/options directory
+.vs/
+
+## Ignore NuGet packages (handled by Package Restore)
+**/packages/
+!**/packages/repositories.config
+
+## Ignore test results
+TestResults/
+
+## Ignore local development settings
+appsettings.Development.json
+appsettings.*.json
+!.gitignore
+!.gitattributes
+!Company.Project.PL/appsettings.json
+
+## Ignore Visual Studio code coverage results
+*.coverage
+*.coveragexml
+
+## Ignore temporary files
+*.[Pp]ublish.xml
+*.publishproj
+
+## Ignore database files (if any)
+*.mdf
+*.ldf
+
+## Ignore Git-specific files (already handled by Git)
+.gitignore
+.gitattributes
+
+## Ignore JetBrains Rider files (if used)
+*.sln.iml
+
+## Ignore local history and temp files
+.history/
+*.tmp
+*.bak
+
+## Ignore VS Code specific files (if used)
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+## Ignore specific project-generated files
+Company.Project.Application/bin/
+Company.Project.Application/obj/
+Company.Project.Domain/bin/
+Company.Project.Domain/obj/
+Company.Project.DTO/bin/
+Company.Project.DTO/obj/
+Company.Project.Infrastructure/bin/
+Company.Project.Infrastructure/obj/
+Company.Project.PL/bin/
+Company.Project.PL/obj/
+Company.Project.theDbContext/bin/
+Company.Project.theDbContext/obj/
+Company.Project.theDbContext/Migrations/*.Designer.cs
