@@ -184,7 +184,4 @@ obj/
 *.userosscache
 *.sln.docstates
 
-
-
-
-
+C:\Users\DELL\Desktop\ITI\.Net\API\ITI Final Project\Company.Project\.idea
